@@ -1,0 +1,35 @@
+.bg-white {
+    background-color: #fff;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.txt-black {
+    color: #000;
+}
+
+.bg-primary {
+    background-color: #072655;
+}
+
+.txt-primary {
+    color: #072655;
+}
+
+.bg-secundary {
+    background-color: #191f28;
+}
+
+.txt-secundary {
+    color: #191f28;
+}
+
+.border-primary{
+    border-color: #072655 !important;
+}

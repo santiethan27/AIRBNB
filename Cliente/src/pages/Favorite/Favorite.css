@@ -1,0 +1,12 @@
+.container-favorite {
+    h1 {
+        text-align: center;
+        transition: transform 0.5s ease;
+    }
+
+    h1:hover {
+        transform: translateX(20px);
+    }
+  
+;
+}

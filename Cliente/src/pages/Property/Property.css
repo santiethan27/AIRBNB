@@ -1,0 +1,162 @@
+.container_property h1,
+h2,
+p {
+    margin-left: 1.5%;
+    margin-top: 0.2%;
+}
+
+.container_property {
+    height: auto;
+}
+
+.container_property .Img {
+    display: flex;
+}
+
+.Img {
+    img {
+        width: 45%;
+    }
+
+    .img-firts {
+        width: 50%;
+        border-radius: 10px;
+        margin-left: 1.5%;
+    }
+}
+
+.img_F {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+
+    img {
+        max-height: 50%;
+        width: 45.5%;
+        border-radius: 10px;
+    }
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 2px;
+
+    img {
+        width: 40%;
+    }
+}
+
+.start {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 98%;
+    margin-top: -2%;
+}
+
+.userPhone {
+    width: 10%;
+
+    .userP {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10%;
+        border-radius: 50%;
+    }
+
+    .sas {
+        margin-left: 7rem;
+        margin-top: -50%;
+    }
+}
+
+.Comentari {
+    width: 90%;
+    margin-left: 0.1%;
+    margin-top: 2%;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 1.5%;
+}
+
+.commit {
+    margin-top: 4.2%;
+    margin-right: 10%;
+    width: 50%;
+    height: max-content;
+}
+
+.commit p {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.commit button {
+    margin-top: 1%;
+    border-radius: 7px;
+    padding: 0.5rem;
+}
+
+.commit .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commit textarea {
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.react-calendar__tile abbr {
+    color: #072655;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.react-calendar__navigation button {
+    color: #072655;
+}
+
+@media(max-width: 400px) {
+    .container_property {
+        .img-firts {
+            width: 50%;
+            border-radius: 10px;
+            flex-wrap: wrap;
+        }
+
+        .Second_images {
+            margin-top: 0%;
+        }
+
+        .Third_images {
+            margin-top: 0%;
+        }
+    }
+
+    .options {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .commit button {
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+        border-radius: 7px;
+        width: 100%;
+        height: 100%;
+        padding: 0.6rem;
+    }
+}

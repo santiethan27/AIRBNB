@@ -1,0 +1,120 @@
+.crud-property {
+    width: 100%;
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: flex;
+    margin: 0 auto;
+    height: max-content;
+    min-height: 100vh;
+
+    .container-table {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .table-property {
+        border-collapse: collapse;
+        margin-top: 20px;
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .table-property th,
+    td {
+        border: 1px solid #000;
+        padding: .5rem 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        margin: 5px 0;
+        width: 50%;
+        box-sizing: border-box;
+        border: 1px solid #072655;
+        margin-right: 5px;
+        border-radius: 5px;
+
+
+    }
+
+    input[type="text"]:focus {
+        outline: none;
+        border: 1px solid rgb(45, 134, 207);
+
+    }
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+
+
+    }
+
+    .modal-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 600px;
+        max-height: 90vh;
+        overflow-y: auto;
+
+    }
+
+    .close-icon {
+        position: absolute;
+        top: 10px;
+        font-size: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #363333;
+
+    }
+
+    .close-icon:hover {
+        color: #aaa;
+    }
+
+
+
+    button.create {
+        height: 40px;
+        background-color: #072655;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px 10px;
+
+        &:hover {
+            background-color: #072655c9;
+        }
+    }
+
+
+    .actions {
+        width: 100%;
+        display: flex;
+        gap: 2px;
+
+        button {
+            padding: 2px 5px;
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            color: #072655;
+            cursor: pointer;
+        }
+    }
+}

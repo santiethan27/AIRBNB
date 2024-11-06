@@ -1,0 +1,9 @@
+.container-major{
+   margin: 15px; 
+}
+.form-exper button{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px 15px 0 15px;
+}
